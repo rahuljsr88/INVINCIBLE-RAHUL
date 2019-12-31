@@ -1,7 +1,7 @@
 # BankStatementProcessor
 Bank Statement Processor
 
-This application supports only two file formats i.e. CSV and XML files as input.
+This application[bank-statement-processor] supports only two file formats i.e. CSV and XML files as input.
 This is a REST application which produces response as JSON and also generates a report XML file in the project root path
 
 # Tech Stack:
@@ -17,7 +17,7 @@ JUnit/Mockito - Unit testing
 This is Maven based project . The pom.xml is available in project root directory.
 Import pom.xml in your IDE once you cloned the repo or directly clone the repository into the IDE
 
-All statement files(xml/csv) to be processed are kept in "statements" directory. 
+All statement files(xml/csv) to be processed are kept in "statements" directory in path "bank-statement-processor\src\main\resources\statements" 
 This path can be configured using application.properties file.
 Run the BankStatementProcessorApplication.java as java application.
 Open the following URL in postman or chrome browser.
